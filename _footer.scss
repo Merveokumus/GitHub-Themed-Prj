@@ -1,0 +1,40 @@
+footer {
+  display: flex;
+  justify-content:flex-start;
+  gap: 100px;
+  margin-top: 30px;
+  padding: 30px;
+  border-top: 0.1px solid rgba(153, 153, 153, 0.445);
+
+  .left-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #7f8487;
+    font-size: 12px;
+    font-weight: 500;
+    &-ikon {
+      a {
+        color: #7f8487;
+        font-size: 22px;
+      }
+    }
+  }
+  .right-side {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        
+        a{
+                color: blue;
+                font-size: 12px;
+
+                &:hover {
+                        border-bottom:0.1px solid blue;
+                }
+        }
+        }
+        
+}

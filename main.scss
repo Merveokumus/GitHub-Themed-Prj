@@ -1,0 +1,18 @@
+@import '_formalize.scss';
+@import '_normalize.scss';
+@import 'variables.scss'; 
+@import '_header.scss';
+@import '_content.scss';
+@import '_footer.scss';
+
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+  }
+  a,p {
+    font-family: $font;
+  }
